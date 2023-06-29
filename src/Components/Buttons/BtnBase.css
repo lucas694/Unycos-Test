@@ -1,0 +1,17 @@
+.BtnBase{
+    @apply text-[#FFFFFF] font-semibold uppercase tracking-[2px] py-2 px-10 rounded-md w-full
+    md:w-auto
+}
+.BtnYellow{
+    @apply bg-[#C5AF19]
+    md:px-14
+    lg:px-20
+}
+.BtnTransparent-BlackBorder{
+    @apply border-[2px] border-[#000000] bg-transparent  text-[#000000] py-1.5
+    md:px-14
+}
+.BtnTransparent-WhiteBorder{
+    @apply border-[2px] border-[#FFFFFF] bg-transparent  text-[#FFFFFF] py-1.5
+    md:px-14
+}

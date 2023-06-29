@@ -1,0 +1,36 @@
+.ExclusiveC-Container{
+    @apply flex flex-col items-center justify-center w-full px-4 py-8
+    md:px-0
+
+}
+
+.ExclusiveC-Content{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-[85%]
+    transition-all duration-500 ease-in-out
+
+}
+.ExclusiveC-Title{
+    @apply text-[#D8D7CE] font-semibold uppercase tracking-[2px] text-center text-2xl
+    xl:text-3xl
+}
+.ExclusiveC-Main{
+    @apply w-full flex flex-row items-center justify-evenly  py-6
+    md:space-x-20 md:justify-center
+
+}
+.ExclusiveC-Card{
+    @apply flex flex-col items-center justify-center
+}
+.ExclusiveC-CardTitle{
+    @apply text-[#FFFFFF] font-semibold uppercase tracking-[2px] text-center text-xs
+    md:text-base
+}
+.ExclusiveC-CardIcon{
+    @apply w-[55px]
+    sm:w-[75px]
+}
+.BtnControlExclusiveC{
+    @apply mt-4 w-full
+    md:mt-0 md:w-auto
+}

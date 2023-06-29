@@ -1,0 +1,16 @@
+.MoreCourseContainer{
+    @apply flex flex-col items-center justify-center w-full px-4 py-8
+}
+.MoreCourseContent{
+    @apply flex flex-col items-center justify-center w-full
+    md:w-[90%]
+    lg:w-[85%]
+}
+.MoreCourseTitle{
+    @apply text-[#D8D7CE] font-semibold uppercase tracking-[2px] text-center text-2xl
+    xl:text-3xl
+}
+.MoreCourseCardsContainer{
+    @apply flex flex-col items-center justify-between w-full mt-4 space-y-4
+    lg:flex-row lg:space-y-0 lg:space-x-4
+}

@@ -1,0 +1,49 @@
+.LessonPlanTopic{
+    @apply flex flex-row justify-center w-full
+
+}
+.LessonPlanTopic span{
+    @apply text-[#D8D7CE] text-2xl
+    md:text-3xl md:text-[#858479]
+    lg:text-4xl
+    transition-all duration-500 ease-in-out
+}
+.LessonPlanTopicMain{
+    @apply flex flex-col items-start justify-center w-full ml-2
+    transition-all duration-500 ease-in-out
+
+}
+.LessonPlanTopicTitle{
+    @apply text-[#858479] text-xl font-semibold tracking-[1px] uppercase
+    md:text-2xl md:tracking-[1.5px] md:text-[#000000]
+    lg:text-3xl
+    transition-all duration-500 ease-in-out
+}
+.LessonPlanTopicDescDesktop{
+    @apply hidden text-[#858479] text-sm tracking-[0.5px] font-medium mt-3
+    md:block
+    lg:text-base
+    transition-all duration-500 ease-in-out
+}
+.LessonPlanTopicDescMobile{
+    @apply text-[#D8D7CE] text-xs tracking-[0.5px] font-medium mt-1
+    sm:text-sm
+    md:hidden
+    transition-all duration-500 ease-in-out
+}
+.TopicMobileBtn{
+    @apply flex items-center justify-center w-auto mt-2
+    md:hidden
+}
+.ArrowIcon{
+    @apply w-8
+    transition-all duration-500 ease-in-out
+}
+.ArrowIconRotate{
+    @apply w-8 transform rotate-90
+    transition-all duration-500 ease-in-out
+}
+.LessonPlanHr{
+    @apply w-full bg-[#1D1A05] h-[2px] mt-4
+    md:bg-[#D8D7CE]
+}

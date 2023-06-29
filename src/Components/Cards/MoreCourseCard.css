@@ -1,0 +1,28 @@
+.MoreCourseCardContainer{
+    @apply flex flex-col items-center justify-center rounded-[10px] relative overflow-hidden w-auto max-w-[368px]
+    lg:w-[390px] lg:max-w-[390px]
+    transition-all duration-500 ease-in-out
+}
+.MoreCourseCardImg{
+    filter: brightness(.5);
+    @apply w-full transition-all duration-500 ease-in-out
+}
+.MoreCourseCardContainer:hover .MoreCourseCardImg{
+    filter: brightness(.75);
+}
+.MoreCourseText{
+    @apply flex flex-col items-start w-full absolute bottom-0 left-0 p-2
+}
+.MoreCourseCardTitle{
+    @apply text-xl font-semibold text-white uppercase tracking-[3px]
+    lg:text-lg
+    xl:text-xl
+}
+.MoreCourseCardJob{
+    @apply text-base font-semibold text-[#D8D7CE] uppercase tracking-[2px]
+    lg:text-sm
+    xl:text-base
+}
+.MoreCourseCardJob span{
+    @apply text-[#858479]
+}

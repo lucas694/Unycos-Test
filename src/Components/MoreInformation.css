@@ -1,0 +1,39 @@
+.MoreInformationContainer{
+    @apply flex flex-col items-center justify-center w-full px-4 py-8
+    md:px-0
+}
+.MoreInformationContent {
+    @apply flex flex-col items-center justify-center w-full
+    md:w-[85%]
+    lg:w-[75%]
+    xl:w-[55%]
+}
+.MoreInformationTitle{
+    @apply text-[#D8D7CE] font-semibold uppercase tracking-[2px] text-center text-xl
+    sm:text-2xl
+    xl:text-3xl
+}
+.MoreInformationFormContainer{
+    @apply flex flex-col items-start w-full mt-6
+    md:mt-10
+}
+.MoreInformationForm{
+    @apply flex flex-col items-center justify-between w-full space-y-4 mt-4
+    md:flex-row md:space-x-4 md:space-y-0 md:mt-6
+}
+.MoreInformationForm label {
+    @apply w-full flex flex-row items-center justify-between
+}
+.MoreInformationForm input{
+    @apply w-full px-3 py-[0.7rem] border-none text-sm font-semibold bg-[#FFFFFF] rounded-md tracking-[0.5px]
+    outline-none focus:ring-2 focus:ring-[#D8D7CE]
+    md:text-base
+
+}
+.MoreInformationForm input::placeholder{
+    @apply text-[#D8D7CE] text-base font-semibold tracking-[0.5px] uppercase
+}
+.MoreInformationCheckbox{
+    width: 25.333px;
+    height: 24px;
+}
