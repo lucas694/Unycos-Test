@@ -10,6 +10,8 @@ import Blog from "./Components/Blog";
 import Footer from "./Components/Footer";
 import Header from "./Components/Header";
 import HeaderMobile from "./Components/HeaderMobile";
+import Slider from "./Components/Slider";
+
 
 function App() {
   return (
@@ -17,7 +19,7 @@ function App() {
       <Header/>
       <HeaderMobile/>
       <Hero/>
-
+      <Slider/>
       <ExclusiveContent/>
       <LessonPlan/>
       <MoreCourse/>
