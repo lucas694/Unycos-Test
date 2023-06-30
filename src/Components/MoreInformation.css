@@ -9,7 +9,7 @@
     xl:w-[55%]
 }
 .MoreInformationTitle{
-    @apply text-[#D8D7CE] font-semibold uppercase tracking-[2px] text-center text-xl
+    @apply text-[#D8D7CE] font-semibold uppercase tracking-[3px] text-center text-xl
     sm:text-2xl
     xl:text-3xl
 }
@@ -22,7 +22,7 @@
     md:flex-row md:space-x-4 md:space-y-0 md:mt-6
 }
 .MoreInformationForm label {
-    @apply w-full flex flex-row items-center justify-between
+    @apply w-full flex flex-row items-center
 }
 .MoreInformationForm input{
     @apply w-full px-3 py-[0.7rem] border-none text-sm font-semibold bg-[#FFFFFF] rounded-md tracking-[0.5px]
@@ -33,7 +33,22 @@
 .MoreInformationForm input::placeholder{
     @apply text-[#D8D7CE] text-base font-semibold tracking-[0.5px] uppercase
 }
-.MoreInformationCheckbox{
-    width: 25.333px;
-    height: 24px;
+
+.MoreInformationForm input[type="checkbox"] {
+    -webkit-appearance: none; /* Remover o estilo padrão */
+    @apply bg-[#EAEAEA] rounded-lg w-[25px] h-[24px]
+    transition-all duration-500 ease-in-out
+}
+
+.MoreInformationForm input[type="checkbox"]:checked {
+    @apply bg-[#2C2C2C] rounded-lg w-[25px] h-[24px] flex items-center justify-center
+
+}
+.MoreInfCheckTerms{
+    @apply text-[#D8D7CE] text-sm font-semibold text-start ml-2
+}
+
+.MoreInfBtnControl{
+    @apply mt-5 w-full flex items-center justify-center
+    md:mt-8
 }

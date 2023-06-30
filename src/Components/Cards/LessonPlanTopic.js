@@ -1,5 +1,5 @@
 import "./LessonPlanTopic.css";
-import arrowIcon from "../../Assets/ArrowIcon.png";
+import arrowIcon from "../../Assets/Icons/ArrowIcon.png";
 import {useState} from "react";
 
 const LessonPlanTopic = ({topic}) => {

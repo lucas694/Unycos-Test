@@ -1,0 +1,32 @@
+.HeaderContainer{
+    @apply hidden w-full md:flex items-center justify-center py-4 px-10 bg-[#000000] shadow-xl
+}
+.HeaderContent{
+    @apply w-[95%] flex items-center justify-between
+    lg:w-[90%]
+    transition-all duration-500 ease-in-out
+}
+.bx-menu{
+    @apply hidden xl:block
+}
+.UlHeader{
+    @apply flex flex-row items-center justify-center
+}
+.LiHeader{
+    @apply text-xs font-semibold text-[#858479] px-2 uppercase cursor-pointer
+    lg:text-base
+}
+.LiHeader span{
+    @apply text-[#D8D7CE]
+}
+.HeaderDropdownMenu{
+    @apply hidden absolute bg-[#FFFFFF] z-10  rounded-md shadow-md
+
+}
+.HeaderDropdownMenu li{
+    @apply text-xs font-semibold text-[#858479] uppercase cursor-pointer text-end hover:text-[#C5AF19] py-2 px-5
+    lg:text-base lg:px-8
+}
+.LiHeader:hover .HeaderDropdownMenu{
+    @apply block
+}

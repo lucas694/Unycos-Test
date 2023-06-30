@@ -1,0 +1,28 @@
+.TestimonialCardContainer{
+    @apply flex flex-col items-center justify-center w-full
+}
+.TestimonialCardContent{
+    @apply flex flex-row items-start justify-center w-full
+}
+.TestimonialCardLine{
+    @apply w-full bg-[#858479] h-[1px] my-4
+}
+.TestimonialCardText{
+    @apply flex flex-col items-start justify-center w-full px-4
+}
+.TestimonialCardTitle{
+    @apply text-[#D8D7CE] font-semibold uppercase tracking-[3px] text-sm
+    md:text-base
+}
+.TestimonialCardDesc{
+    @apply text-[#D8D7CE] font-medium text-xs mt-2
+    md:text-[0.910rem]
+}
+
+.TestimonialCardText section{
+    @apply flex flex-row items-center justify-start w-full mt-5
+}
+.TestimonialCardCheckText{
+    @apply text-[#C5AF19] font-semibold text-xs ml-2
+    md:text-[0.910rem]
+}

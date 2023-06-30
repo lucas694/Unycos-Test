@@ -1,0 +1,41 @@
+.FooterContainer{
+    @apply flex flex-col items-center justify-center p-4
+    md:p-6
+}
+.FooterContent{
+    @apply flex flex-col-reverse items-end justify-between w-full pt-8
+    md:flex-row
+}
+.FooterContentLeft{
+    @apply flex flex-col items-start justify-start w-full mt-4
+    md:w-[20%] md:mt-0
+}
+.FooterContentMain{
+    @apply flex flex-col items-center justify-center w-full space-y-5
+    md:w-[60%] md:space-y-8
+}
+.FooterContentRight{
+    @apply hidden md:flex flex-row items-end justify-end w-[20%]
+}
+.FooterContentRight p{
+    @apply text-xs font-semibold text-[#FFFFFF]
+}
+.FooterContentRight p span{
+    @apply text-[#858479] ml-4
+}
+.FooterHr{
+    @apply w-full h-[1px] bg-[#858479]
+}
+.FooterMainTop{
+    @apply flex flex-row items-center justify-center w-full space-x-10
+}
+.FooterMainBottom{
+    @apply flex flex-row items-center justify-evenly w-full
+}
+.FooterBottomLinks{
+    @apply text-xs font-semibold text-[#858479] cursor-pointer
+    sm:text-sm
+}
+.FooterTopLogo{
+    @apply w-auto
+}

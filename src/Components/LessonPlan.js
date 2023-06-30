@@ -18,6 +18,7 @@ const LessonPlan = () => {
 
   return(
     <div className={"LessonPlanContainer"}>
+      <h1 className={"LessonPlanTitle"}>LESSON PLAN</h1>
       <div className={"LessonPlanContent"}>
         {getTopics().map((topic) => {
           return(
